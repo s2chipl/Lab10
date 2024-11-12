@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Form Tính Toán</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='formtt.css'>
+    <script src='formtt.js'></script>
+</head>
+<body>
+    <div class="container">
+        <h2>FORM TÍNH TOÁN</h2>
+        <form>
+            <p>
+                <span class="lable">a:</span>
+                <input type="text" class="value" id="a">
+            </p>
+            <p>
+                <span class="lable">b:</span>
+                <input type="text" class="value" id="b">
+            </p>
+            <p>
+                <span class="lable">Kết quả:</span>
+                <input type="text" class="value" id="kq" readonly>
+            </p>
+            
+                <button class="btn" type="button" onclick="Sum()">+</button>
+                <button class="btn" type="button" onclick="hieu()">-</button>
+                <button class="btn" type="button" onclick="nhan()">*</button>
+                <button class="btn" type="button" onclick="Divide()">/</button>
+                <button class="btn" type="button" onclick="Reset()">Reset</button>
+        
+            <p id="log"></p>
+        </form>
+
+    </div>
+</body>
+</html>
